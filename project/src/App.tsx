@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import CodingProfiles from './components/CodingProfiles';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { MotionConfig } from 'framer-motion';
@@ -24,6 +25,7 @@ function App() {
             <Projects />
             <Experience />
             <CodingProfiles />
+            <Blog />
             <Contact />
           </main>
           <Footer />

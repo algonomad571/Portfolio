@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Code2, Twitter } from 'lucide-react';
+import { Menu, X, Github, Code2, Award, Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const navLinks = [
@@ -8,6 +8,7 @@ const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'Experience', href: '#experience' },
   { name: 'Coding Profiles', href: '#coding-profiles' },
+  { name: 'Blog', href: '#blog' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -56,24 +57,33 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li className="flex space-x-4">
+          <li className="flex items-center space-x-4">
             <a
-              href="https://github.com/algonomad571"
+              href="https://github.com/muskan"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+              aria-label="GitHub Profile"
             >
               <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://x.com/muskan571"
+              href="https://leetcode.com/muskan"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+              aria-label="LeetCode Profile"
             >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">X (Twitter)</span>
+              <Award className="h-5 w-5" />
+            </a>
+            <a
+              href="https://codeforces.com/profile/muskan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+              aria-label="Codeforces Profile"
+            >
+              <Trophy className="h-5 w-5" />
             </a>
           </li>
         </ul>
@@ -109,24 +119,33 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <li className="flex space-x-4">
+            <li className="flex items-center space-x-4">
               <a
                 href="https://github.com/algonomad571"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                aria-label="GitHub Profile"
               >
                 <Github className="h-6 w-6" />
-                <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://x.com/muskan571"
+                href="https://leetcode.com/Algonomad571"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                aria-label="LeetCode Profile"
               >
-                <Twitter className="h-6 w-6" />
-                <span className="sr-only">X (Twitter)</span>
+                <Award className="h-6 w-6" />
+              </a>
+              <a
+                href="https://codeforces.com/profile/muskan1705"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                aria-label="Codeforces Profile"
+              >
+                <Trophy className="h-6 w-6" />
               </a>
             </li>
           </ul>

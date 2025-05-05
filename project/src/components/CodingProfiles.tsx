@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useQuery } from 'react-query';
@@ -9,7 +10,7 @@ interface LeetCodeStats {
   mediumSolved: number;
   hardSolved: number;
   ranking: number;
-  contestRating: 1742;
+  contestRating: number;
 }
 
 interface CodeforcesStats {
@@ -31,15 +32,9 @@ const CodingProfiles = () => {
     'leetcode',
     async () => {
       const response = await fetch('https://leetcode-stats-api.herokuapp.com/Algonomad571');
-      const data = await response.json();
-  
-      return {
-        ...data,
-        contestRating: 1742
-      };
+      return response.json();
     }
   );
-  
 
   const { data: codeforcesStats, isLoading: codeforcesLoading } = useQuery<CodeforcesStats>(
     'codeforces',
