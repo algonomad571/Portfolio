@@ -59,7 +59,7 @@ const Navbar = () => {
           ))}
           <li className="flex items-center space-x-4">
             <a
-              href="https://github.com/muskan"
+              href="https://github.com/algonomad571"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -68,7 +68,7 @@ const Navbar = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://leetcode.com/muskan"
+              href="https://leetcode.com/Algonomad571"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
@@ -77,7 +77,7 @@ const Navbar = () => {
               <Award className="h-5 w-5" />
             </a>
             <a
-              href="https://codeforces.com/profile/muskan"
+              href="https://codeforces.com/profile/muskan1705"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
