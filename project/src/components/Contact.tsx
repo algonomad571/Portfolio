@@ -46,7 +46,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="section-padding bg-background-light">
+    <section id="contact" className="section-padding bg-background-light relative z-50">
       <div className="container-custom">
         <div className="text-center mb-12">
           <motion.h2
@@ -67,7 +67,7 @@ const Contact = () => {
           </motion.p>
         </div>
 
-        <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 gap-12 z-50">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
