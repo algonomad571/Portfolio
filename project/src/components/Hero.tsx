@@ -47,7 +47,7 @@ const Hero = () => {
                 <Briefcase className="mr-2 h-4 w-4" />
                 View Projects
               </a>
-              <a href="#" className="btn btn-secondary">
+              <a href="/Resume.pdf" download className="btn btn-secondary">
                 <FileDown className="mr-2 h-4 w-4" />
                 Download Resume
               </a>

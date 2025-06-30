@@ -40,8 +40,8 @@ const Contact = () => {
 
   const socialLinks = [
     { name: 'GitHub', icon: <Github className="h-5 w-5" />, url: 'https://github.com/algonomad571' },
-    { name: 'LinkedIn', icon: <Linkedin className="h-5 w-5" />, url: 'https://linkedin.com' },
-    { name: 'Twitter', icon: <Twitter className="h-5 w-5" />, url: 'https://twitter.com/yourprofile' },
+    { name: 'LinkedIn', icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/in/algonomad571/' },
+    { name: 'Twitter', icon: <Twitter className="h-5 w-5" />, url: 'https://x.com/muskan571' },
     { name: 'Email', icon: <Mail className="h-5 w-5" />, url: 'mailto:muskansrivastav517@gmail.com' },
   ];
 

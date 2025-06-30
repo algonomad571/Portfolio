@@ -5,9 +5,23 @@ import { Award, Code, Book, Users } from 'lucide-react';
 
 const experiences = [
   {
+    title: 'BaseBatch India 2025 Finalist ',
+    date: 'May 2025',
+    description: 'Made a Yield Optimizer that switches between lending protocol (Aave, Compound and Yearn) and gives out the best yield.',
+    icon: <Award className="h-6 w-6 text-primary" />,
+    category: 'achievement'
+  },
+  {
     title: 'Hackathon Winner - Mapmy India Hackathon',
     date: 'March 2025',
     description: 'Secured 1st place by building a location-based platform for NGO event and volunteer management using MapmyIndia APIs.',
+    icon: <Award className="h-6 w-6 text-primary" />,
+    category: 'achievement'
+  },
+  {
+    title: 'Hackathon Finalist - John Hopkins University Health Hack 2025',
+    date: 'January 2025',
+    description: 'Built a AI and Blockchain powered resource prediction platform for hospital resources.',
     icon: <Award className="h-6 w-6 text-primary" />,
     category: 'achievement'
   },
@@ -26,7 +40,7 @@ const experiences = [
     category: 'education'
   },
   {
-    title: 'Open Source Contributor',
+    title: 'Open Source Contributor- GirlScript Summer of Code (GSSoC 2024)',
     date: 'October 2024 - November 2024',
     description: 'Implemented secure session handling, Dijkstra’s pathfinding, and dynamic graph input to enhance backend functionality. Integrated React and Node.js for real-time messaging, enabling smooth, low-latency user interactions. Ranked 99 overall with 12+ merged PRs; adhered to best coding practices and open-source standards.',
     icon: <Code className="h-6 w-6 text-secondary" />,

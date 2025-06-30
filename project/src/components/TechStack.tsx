@@ -21,23 +21,18 @@ const techCategories: TechCategory[] = [
   {
     icon: '',
     title: 'Security & Debugging',
-    skills: ['Code Analysis', 'Git', 'VSCode'],
+    skills: ['Code Analysis', 'Git', 'VSCode','GitHub','Postman'],
   },
   {
     icon: '',
     title: 'Programming Languages',
-    skills: ['C++', 'Python', 'JavaScript'],
+    skills: ['C++', 'Python', 'JavaScript','SQL'],
   },
   {
     icon: '',
     title: 'Backend & APIs',
-    skills: ['Node.js', 'Flask', 'REST APIs', 'FastAPI', 'GraphQL'],
-  },
-  {
-    icon: '',
-    title: 'Cloud & DevOps',
-    skills: ['AWS', 'GCP', 'Docker', 'GitHub Actions'],
-  },
+    skills: ['Node.js', 'Flask', 'REST APIs', 'FastAPI', 'MongoDB','JWT','OAuth 2.0'],
+  }
 ];
 
 const TechStack = () => {
